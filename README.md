@@ -4,7 +4,7 @@ Este projeto é parte do curso da Rocketseat e representa o desenvolvimento de u
 
 ## Descrição
 
-OriginSix é um salão exclusivo em São Paulo, especializado em tratamentos naturais para cabelos. Este projeto está sendo desenvolvido como parte das aulas da Rocketseat, focando na construção da interface inicial do site.
+OriginSix é um salão fictício, especializado em tratamentos naturais para cabelos. Este projeto está sendo desenvolvido como parte das aulas da Rocketseat, focando na construção da interface inicial do site.
 
 ## Tecnologias Utilizadas
 
