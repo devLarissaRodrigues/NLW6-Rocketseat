@@ -18,9 +18,19 @@
   </head>
   <body>
     <header id="header">
-      <nav class="container">
+      <nav class="container show">
         <a class="logo" href="#">beauty<span>salon</span>.</a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
+          </ul> 
+        </div><!--/menu-->
+        <div class="open">...</div>
+        <div class="close">x</div>
       </nav>
     </header>
 
@@ -28,20 +38,35 @@
       <section class="section" id="home">
         <div class="container grid">
           <div class="image"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3& ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8fDA%3D" alt="Imagem de cabeleireira penteando mulher"/>
-          </div> <!-- image -->
+          </div> <!-- /image -->
           
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
             <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
             <a class="button" href="#">Agendar um horário</a>
-          </div> <!-- text -->
-        </div> <!-- container -->
-      </section> <!-- section -->
+          </div> <!-- /text -->
+        </div> <!-- /container -->
+      </section> <!-- /section -->
         <div class="divider-1">
+      
+      <!--section.section#about>.container.grid-->
 
-      <section class="section">
-        <div class="container"></div>
-      </section> <!-- section --></div>
+      <section class="section" id="about">
+        <div class="container grid">Sobre</div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container grid">Serviços</div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="container grid">Depoimentos</div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container grid">Contato</div>
+      </section>
+
     </main>
     <footer></footer>
   </body>
